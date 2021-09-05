@@ -1,0 +1,2 @@
+gradio==2.2.15
+pickle
