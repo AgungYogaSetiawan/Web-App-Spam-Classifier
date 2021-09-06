@@ -1,4 +1,5 @@
 from flask import Flask, render_template, url_for, request
+from sklearn.svm import SVC
 import pickle
 
 # load model from pickle file
