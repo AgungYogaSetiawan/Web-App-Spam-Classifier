@@ -21,7 +21,7 @@ def predict():
         count_vec = vec.transform(data).toarray()
         tfTrans = tf_trans.transform(count_vec)
         prediction = model_svc.predict(tfTrans)
-        return render_template('results.html',prediction=prediction)
+        return render_template('home.html',prediction=prediction)
     
 if __name__ == '__main__':
     app.run(debug=True)
