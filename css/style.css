@@ -1,6 +1,5 @@
 body {
-  font: 15px/1.5 Arial, Helvetica, sans-serif;
-  background-color: #f4f3f3;
+  font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -34,10 +33,10 @@ header h2 {
   background: #0b7dda;
 }
 
-.results {
+/* .results {
   border-radius: 15px 50px;
   background: #345fe4;
   padding: 20px;
   width: 200px;
   height: 150px;
-}
+} */
